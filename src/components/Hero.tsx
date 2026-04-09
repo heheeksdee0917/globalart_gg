@@ -73,7 +73,7 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
         >
           <span className="inline-block bg-accent text-gray-800 font-bold text-sm px-4 py-1.5 rounded-full mb-5 shadow-sm">
-            Art Classes for Kids in Rawang
+            FREE Trial Available
           </span>
 
           <h1 className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-gray-900 leading-tight mb-5">

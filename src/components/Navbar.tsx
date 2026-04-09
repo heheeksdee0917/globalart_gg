@@ -15,16 +15,17 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-white/90 backdrop-blur-sm'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-white/90 backdrop-blur-sm'
+        }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-2xl bg-primary flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-              <Palette size={18} className="text-white" />
-            </div>
+            <img
+              src="/logo.avif"
+              alt="Global Art @ Gamuda Gardens"
+              className="h-9 w-auto group-hover:scale-105 transition-transform"
+            />
             <div className="leading-tight">
               <span className="font-display font-bold text-primary text-base block leading-none">Global Art</span>
               <span className="text-xs text-gray-500 font-body font-600">@ Gamuda Gardens</span>

@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-8 border-b border-gray-800">
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-9 h-9 rounded-2xl bg-primary flex items-center justify-center">
-                <Palette size={18} className="text-white" />
-              </div>
+              <img
+                src="/logo.avif"
+                alt="Global Art @ Gamuda Gardens"
+                className="h-9 w-auto group-hover:scale-105 transition-transform"
+              />
               <div>
                 <span className="font-display font-bold text-white text-base block leading-none">Global Art</span>
                 <span className="text-xs text-gray-500">@ Gamuda Gardens</span>
@@ -45,25 +47,20 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-bold text-white text-sm mb-3 uppercase tracking-wide">Follow Us</h4>
             <div className="flex gap-3">
-              <span
-                className="w-9 h-9 rounded-xl bg-gray-800 flex items-center justify-center cursor-not-allowed"
-                title="Facebook (coming soon)"
-              >
-                <Facebook size={16} className="text-gray-500" />
-              </span>
-              <span
-                className="w-9 h-9 rounded-xl bg-gray-800 flex items-center justify-center cursor-not-allowed"
-                title="Instagram (coming soon)"
-              >
-                <Instagram size={16} className="text-gray-500" />
-              </span>
+              <a href="https://www.facebook.com/profile.php?id=61573996134686" target="_blank" rel="noopener noreferrer"
+                className="w-9 h-9 rounded-xl bg-gray-800 hover:bg-primary flex items-center justify-center transition-colors">
+                <Facebook size={16} className="text-gray-400 hover:text-white" />
+              </a>
+              <a href="https://www.instagram.com/globalart.gamudagardens/" target="_blank" rel="noopener noreferrer"
+                className="w-9 h-9 rounded-xl bg-gray-800 hover:bg-primary flex items-center justify-center transition-colors">
+                <Instagram size={16} className="text-gray-400 hover:text-white" />
+              </a>
             </div>
-            <p className="text-xs mt-2 text-gray-600">Social links coming soon</p>
           </div>
         </div>
 
         <div className="pt-6 text-center text-xs text-gray-600">
-          &copy; 2025 Global Art @ Gamuda Gardens. All rights reserved.
+          &copy; 2026 Global Art @ Gamuda Gardens. All rights reserved.
         </div>
       </div>
     </footer>
