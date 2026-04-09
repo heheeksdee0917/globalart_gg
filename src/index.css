@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Baloo+2:wght@700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a2e;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Baloo 2', cursive;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Baloo 2', cursive;
+  }
+}
